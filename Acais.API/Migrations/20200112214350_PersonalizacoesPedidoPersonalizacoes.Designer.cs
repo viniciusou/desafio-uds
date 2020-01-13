@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Acais.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200110225417_AddedPedidosSaboresTamanhos")]
-    partial class AddedPedidosSaboresTamanhos
+    [Migration("20200112214350_PersonalizacoesPedidoPersonalizacoes")]
+    partial class PersonalizacoesPedidoPersonalizacoes
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -30,11 +30,11 @@ namespace Acais.API.Migrations
                     b.Property<Guid>("TamanhoId")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Tempo")
+                    b.Property<int>("TempoPreparo")
                         .HasColumnType("INTEGER");
 
-                    b.Property<decimal>("Valor")
-                        .HasColumnType("TEXT");
+                    b.Property<decimal>("ValorTotal")
+                        .HasColumnType("decimal(18, 2)");
 
                     b.HasKey("Id");
 
@@ -45,6 +45,48 @@ namespace Acais.API.Migrations
                     b.ToTable("Pedidos");
                 });
 
+            modelBuilder.Entity("Acais.API.Models.PedidoPersonalizacao", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("PedidoId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("PersonalizacaoId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PedidoId");
+
+                    b.HasIndex("PersonalizacaoId");
+
+                    b.ToTable("PedidoPersonalizacoes");
+                });
+
+            modelBuilder.Entity("Acais.API.Models.Personalizacao", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Produto")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("TempoPreparo")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<decimal>("Valor")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Personalizacoes");
+                });
+
             modelBuilder.Entity("Acais.API.Models.Sabor", b =>
                 {
                     b.Property<Guid>("Id")
@@ -52,6 +94,7 @@ namespace Acais.API.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("TempoPreparo")
@@ -69,13 +112,14 @@ namespace Acais.API.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("TempoPreparo")
                         .HasColumnType("INTEGER");
 
                     b.Property<decimal>("Valor")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.HasKey("Id");
 
@@ -93,6 +137,21 @@ namespace Acais.API.Migrations
                     b.HasOne("Acais.API.Models.Tamanho", "Tamanho")
                         .WithMany()
                         .HasForeignKey("TamanhoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Acais.API.Models.PedidoPersonalizacao", b =>
+                {
+                    b.HasOne("Acais.API.Models.Pedido", null)
+                        .WithMany("PedidoPersonalizacoes")
+                        .HasForeignKey("PedidoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Acais.API.Models.Personalizacao", "Personalizacao")
+                        .WithMany("PedidoPersonalizacoes")
+                        .HasForeignKey("PersonalizacaoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

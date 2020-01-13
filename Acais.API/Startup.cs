@@ -32,7 +32,9 @@ namespace Acais.API
                 x.UseLazyLoadingProxies();
                 x.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
             });
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(opt => {
+                opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            });
             services.AddCors();
             services.AddAutoMapper(typeof(BaseRepository).Assembly);
             services.AddScoped<IDataContext, DataContext>();
@@ -40,6 +42,8 @@ namespace Acais.API
             services.AddScoped<ITamanhoRepository, TamanhoRepository>();
             services.AddScoped<ISaborRepository, SaborRepository>();
             services.AddScoped<IPedidoRepository, PedidoRepository>();
+            services.AddScoped<IPersonalizacaoRepository, PersonalizacaoRepository>();
+             services.AddScoped<IPedidoPersonalizacaoRepository, PedidoPersonalizacaoRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

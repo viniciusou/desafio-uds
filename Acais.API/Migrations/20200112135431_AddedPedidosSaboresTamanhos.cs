@@ -12,7 +12,7 @@ namespace Acais.API.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(nullable: false),
-                    Nome = table.Column<string>(nullable: true),
+                    Nome = table.Column<string>(nullable: false),
                     TempoPreparo = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -25,9 +25,9 @@ namespace Acais.API.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(nullable: false),
-                    Nome = table.Column<string>(nullable: true),
+                    Nome = table.Column<string>(nullable: false),
                     TempoPreparo = table.Column<int>(nullable: false),
-                    Valor = table.Column<decimal>(nullable: false)
+                    Valor = table.Column<decimal>(type: "decimal(18, 2)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -41,8 +41,8 @@ namespace Acais.API.Migrations
                     Id = table.Column<Guid>(nullable: false),
                     TamanhoId = table.Column<Guid>(nullable: false),
                     SaborId = table.Column<Guid>(nullable: false),
-                    Tempo = table.Column<int>(nullable: false),
-                    Valor = table.Column<decimal>(nullable: false)
+                    TempoPreparo = table.Column<int>(nullable: false),
+                    ValorTotal = table.Column<decimal>(type: "decimal(18, 2)", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -9,6 +9,8 @@ namespace Acais.API.Data.Interfaces
         DbSet<Pedido> Pedidos { get; set; }
         DbSet<Sabor> Sabores { get; set; }
         DbSet<Tamanho> Tamanhos { get; set; }
+        DbSet<Personalizacao> Personalizacoes { get; set; }
+        DbSet<PedidoPersonalizacao> PedidoPersonalizacoes { get; set; }
 
         void Add<T>(T entity);
 

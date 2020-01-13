@@ -63,6 +63,35 @@ namespace Acais.API.Data
 
                 context.SaveChanges();
             }
+
+            if (!context.Personalizacoes.Any())
+            {
+                var personalizacoes = new List<Personalizacao>
+                {
+                    new Personalizacao
+                    {
+                        Produto = "granola",
+                        TempoPreparo = 0,
+                        Valor = 0m
+                    },
+                    new Personalizacao
+                    {
+                        Produto = "pacoca",
+                        TempoPreparo = 3,
+                        Valor = 3m
+                    },
+                    new Personalizacao
+                    {
+                        Produto = "leite ninho",
+                        TempoPreparo = 0,
+                        Valor = 3m
+                    }
+                };
+
+                context.Personalizacoes.AddRange(personalizacoes);
+
+                context.SaveChanges();
+            }
         }
     }
 }

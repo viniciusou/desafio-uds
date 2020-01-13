@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using Acais.API.Dtos;
 using Acais.API.Models;
 using AutoMapper;
@@ -12,9 +14,16 @@ namespace Acais.API.Helpers
 
             CreateMap<SaborForCreationDto, Sabor>();
 
+            CreateMap<PersonalizacaoForCreationDto, Personalizacao>();
+
+            CreateMap<Personalizacao, PersonalizacaoToReturnDto>();
+
+            CreateMap<PedidoPersonalizacaoForCreationDto, PedidoPersonalizacao>();
+
             CreateMap<Pedido, PedidoToReturnDto>()
                 .ForMember(dest => dest.Tamanho, opt => opt.MapFrom(src => src.Tamanho.Nome))
-                .ForMember(dest => dest.Sabor, opt => opt.MapFrom(src => src.Sabor.Nome));
+                .ForMember(dest => dest.Sabor, opt => opt.MapFrom(src => src.Sabor.Nome))
+                .ForMember(dest => dest.Personalizacao, opt => opt.MapFrom(src => String.Join(',', src.PedidoPersonalizacoes.Select(p => p.Personalizacao.Produto))));
         }
     }
 }

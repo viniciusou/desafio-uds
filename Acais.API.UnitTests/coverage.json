@@ -1,0 +1,3099 @@
+{
+  "Acais.API.dll": {
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Program.cs": {
+      "Acais.API.Program": {
+        "System.Void Acais.API.Program::Main(System.String[])": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Acais.API.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 12,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Startup.cs": {
+      "Acais.API.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration Acais.API.Startup::get_Configuration()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Acais.API.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 34,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Acais.API.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "76": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 30,
+              "EndOffset": 55,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 83,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 8,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Acais.API.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Startup/<>c/<<Configure>b__5_2>d": {
+        "System.Void Acais.API.Startup/<>c/<<Configure>b__5_2>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 8,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 73,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 166,
+              "EndOffset": 168,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 8,
+              "EndOffset": 205,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 166,
+              "EndOffset": 233,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 73,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Models/Pedido.cs": {
+      "Acais.API.Models.Pedido": {
+        "System.Guid Acais.API.Models.Pedido::get_Id()": {
+          "Lines": {
+            "9": 30
+          },
+          "Branches": []
+        },
+        "Acais.API.Models.Tamanho Acais.API.Models.Pedido::get_Tamanho()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Acais.API.Models.Pedido::get_TamanhoId()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Acais.API.Models.Sabor Acais.API.Models.Pedido::get_Sabor()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Acais.API.Models.Pedido::get_SaborId()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Acais.API.Models.Pedido::get_TempoPreparo()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Acais.API.Models.Pedido::get_ValorTotal()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Acais.API.Models.PedidoPersonalizacao> Acais.API.Models.Pedido::get_PedidoPersonalizacoes()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Models/PedidoPersonalizacao.cs": {
+      "Acais.API.Models.PedidoPersonalizacao": {
+        "System.Guid Acais.API.Models.PedidoPersonalizacao::get_Id()": {
+          "Lines": {
+            "7": 7
+          },
+          "Branches": []
+        },
+        "System.Guid Acais.API.Models.PedidoPersonalizacao::get_PedidoId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Acais.API.Models.PedidoPersonalizacao::get_PersonalizacaoId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "Acais.API.Models.Personalizacao Acais.API.Models.PedidoPersonalizacao::get_Personalizacao()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Models/Personalizacao.cs": {
+      "Acais.API.Models.Personalizacao": {
+        "System.Guid Acais.API.Models.Personalizacao::get_Id()": {
+          "Lines": {
+            "10": 24
+          },
+          "Branches": []
+        },
+        "System.String Acais.API.Models.Personalizacao::get_Produto()": {
+          "Lines": {
+            "12": 44
+          },
+          "Branches": []
+        },
+        "System.Int32 Acais.API.Models.Personalizacao::get_TempoPreparo()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Acais.API.Models.Personalizacao::get_Valor()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Acais.API.Models.PedidoPersonalizacao> Acais.API.Models.Personalizacao::get_PedidoPersonalizacoes()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Models/Sabor.cs": {
+      "Acais.API.Models.Sabor": {
+        "System.Guid Acais.API.Models.Sabor::get_Id()": {
+          "Lines": {
+            "8": 31
+          },
+          "Branches": []
+        },
+        "System.String Acais.API.Models.Sabor::get_Nome()": {
+          "Lines": {
+            "10": 51
+          },
+          "Branches": []
+        },
+        "System.Int32 Acais.API.Models.Sabor::get_TempoPreparo()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Models/Tamanho.cs": {
+      "Acais.API.Models.Tamanho": {
+        "System.Guid Acais.API.Models.Tamanho::get_Id()": {
+          "Lines": {
+            "9": 31
+          },
+          "Branches": []
+        },
+        "System.String Acais.API.Models.Tamanho::get_Nome()": {
+          "Lines": {
+            "11": 51
+          },
+          "Branches": []
+        },
+        "System.Int32 Acais.API.Models.Tamanho::get_TempoPreparo()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Acais.API.Models.Tamanho::get_Valor()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Migrations/20200112135431_AddedPedidosSaboresTamanhos.cs": {
+      "Acais.API.Migrations.AddedPedidosSaboresTamanhos": {
+        "System.Void Acais.API.Migrations.AddedPedidosSaboresTamanhos::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 13,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 45,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 89,
+              "EndOffset": 91,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 89,
+              "EndOffset": 114,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 121,
+              "EndOffset": 123,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 121,
+              "EndOffset": 146,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 165,
+              "EndOffset": 167,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 165,
+              "EndOffset": 190,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 197,
+              "EndOffset": 199,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 197,
+              "EndOffset": 222,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Acais.API.Migrations.AddedPedidosSaboresTamanhos::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Migrations/20200112135431_AddedPedidosSaboresTamanhos.Designer.cs": {
+      "Acais.API.Migrations.AddedPedidosSaboresTamanhos": {
+        "System.Void Acais.API.Migrations.AddedPedidosSaboresTamanhos::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "102": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 30,
+              "EndOffset": 55,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 73,
+              "EndOffset": 75,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 73,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 116,
+              "EndOffset": 118,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 116,
+              "EndOffset": 141,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 159,
+              "EndOffset": 161,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 159,
+              "EndOffset": 184,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Migrations/20200112214350_PersonalizacoesPedidoPersonalizacoes.cs": {
+      "Acais.API.Migrations.PersonalizacoesPedidoPersonalizacoes": {
+        "System.Void Acais.API.Migrations.PersonalizacoesPedidoPersonalizacoes::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 13,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 45,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 89,
+              "EndOffset": 91,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 89,
+              "EndOffset": 114,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 121,
+              "EndOffset": 123,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 121,
+              "EndOffset": 146,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Acais.API.Migrations.PersonalizacoesPedidoPersonalizacoes::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Migrations/20200112214350_PersonalizacoesPedidoPersonalizacoes.Designer.cs": {
+      "Acais.API.Migrations.PersonalizacoesPedidoPersonalizacoes": {
+        "System.Void Acais.API.Migrations.PersonalizacoesPedidoPersonalizacoes::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 30,
+              "EndOffset": 55,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 73,
+              "EndOffset": 75,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 73,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 116,
+              "EndOffset": 118,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 116,
+              "EndOffset": 141,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 159,
+              "EndOffset": 161,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 159,
+              "EndOffset": 184,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 108,
+              "Offset": 202,
+              "EndOffset": 204,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 108,
+              "Offset": 202,
+              "EndOffset": 227,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 245,
+              "EndOffset": 247,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 245,
+              "EndOffset": 270,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 144,
+              "Offset": 288,
+              "EndOffset": 290,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 144,
+              "Offset": 288,
+              "EndOffset": 313,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Migrations/DataContextModelSnapshot.cs": {
+      "Acais.API.Migrations.DataContextModelSnapshot": {
+        "System.Void Acais.API.Migrations.DataContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 30,
+              "EndOffset": 55,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 73,
+              "EndOffset": 75,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 73,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 116,
+              "EndOffset": 118,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 116,
+              "EndOffset": 141,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 159,
+              "EndOffset": 161,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 159,
+              "EndOffset": 184,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 202,
+              "EndOffset": 204,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 202,
+              "EndOffset": 227,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 245,
+              "EndOffset": 247,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 245,
+              "EndOffset": 270,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 142,
+              "Offset": 288,
+              "EndOffset": 290,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 142,
+              "Offset": 288,
+              "EndOffset": 313,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Helpers/AutoMapperProfiles.cs": {
+      "Acais.API.Helpers.AutoMapperProfiles": {
+        "System.Void Acais.API.Helpers.AutoMapperProfiles::.ctor()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "15": 0,
+            "17": 0,
+            "19": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 112,
+              "EndOffset": 114,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 112,
+              "EndOffset": 137,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 205,
+              "EndOffset": 207,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 205,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 298,
+              "EndOffset": 300,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 298,
+              "EndOffset": 323,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Helpers/Extensions.cs": {
+      "Acais.API.Helpers.Extensions": {
+        "System.Void Acais.API.Helpers.Extensions::AddApplicationError(Microsoft.AspNetCore.Http.HttpResponse,System.String)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Dtos/PedidoForCreationDto.cs": {
+      "Acais.API.Dtos.PedidoForCreationDto": {
+        "System.String Acais.API.Dtos.PedidoForCreationDto::get_Tamanho()": {
+          "Lines": {
+            "10": 4
+          },
+          "Branches": []
+        },
+        "System.String Acais.API.Dtos.PedidoForCreationDto::get_Sabor()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Dtos/PedidoPersonalizacaoForCreationDto.cs": {
+      "Acais.API.Dtos.PedidoPersonalizacaoForCreationDto": {
+        "System.Guid Acais.API.Dtos.PedidoPersonalizacaoForCreationDto::get_PedidoId()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Acais.API.Dtos.PedidoPersonalizacaoForCreationDto::get_PersonalizacaoId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Dtos/PedidoToReturnDto.cs": {
+      "Acais.API.Dtos.PedidoToReturnDto": {
+        "System.Guid Acais.API.Dtos.PedidoToReturnDto::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Acais.API.Dtos.PedidoToReturnDto::get_Tamanho()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Acais.API.Dtos.PedidoToReturnDto::get_Sabor()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Acais.API.Dtos.PedidoToReturnDto::get_TempoPreparo()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Acais.API.Dtos.PedidoToReturnDto::get_ValorTotal()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Acais.API.Dtos.PedidoToReturnDto::get_Personalizacao()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Dtos/PersonalizacaoForCreationDto.cs": {
+      "Acais.API.Dtos.PersonalizacaoForCreationDto": {
+        "System.String Acais.API.Dtos.PersonalizacaoForCreationDto::get_Produto()": {
+          "Lines": {
+            "8": 6
+          },
+          "Branches": []
+        },
+        "System.Int32 Acais.API.Dtos.PersonalizacaoForCreationDto::get_TempoPreparo()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Acais.API.Dtos.PersonalizacaoForCreationDto::get_Valor()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Dtos/PersonalizacaoToReturnDto.cs": {
+      "Acais.API.Dtos.PersonalizacaoToReturnDto": {
+        "System.Guid Acais.API.Dtos.PersonalizacaoToReturnDto::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Acais.API.Dtos.PersonalizacaoToReturnDto::get_Produto()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Acais.API.Dtos.PersonalizacaoToReturnDto::get_TempoPreparo()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Acais.API.Dtos.PersonalizacaoToReturnDto::get_Valor()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Dtos/SaborForCreationDto.cs": {
+      "Acais.API.Dtos.SaborForCreationDto": {
+        "System.String Acais.API.Dtos.SaborForCreationDto::get_Nome()": {
+          "Lines": {
+            "8": 6
+          },
+          "Branches": []
+        },
+        "System.Int32 Acais.API.Dtos.SaborForCreationDto::get_TempoPreparo()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Dtos/TamanhoForCreationDto.cs": {
+      "Acais.API.Dtos.TamanhoForCreationDto": {
+        "System.String Acais.API.Dtos.TamanhoForCreationDto::get_Nome()": {
+          "Lines": {
+            "8": 6
+          },
+          "Branches": []
+        },
+        "System.Int32 Acais.API.Dtos.TamanhoForCreationDto::get_TempoPreparo()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Acais.API.Dtos.TamanhoForCreationDto::get_Valor()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Data/DataContext.cs": {
+      "Acais.API.Data.DataContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Acais.API.Models.Pedido> Acais.API.Data.DataContext::get_Pedidos()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Acais.API.Models.Sabor> Acais.API.Data.DataContext::get_Sabores()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Acais.API.Models.Tamanho> Acais.API.Data.DataContext::get_Tamanhos()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Acais.API.Models.Personalizacao> Acais.API.Data.DataContext::get_Personalizacoes()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Acais.API.Models.PedidoPersonalizacao> Acais.API.Data.DataContext::get_PedidoPersonalizacoes()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Void Acais.API.Data.DataContext::Add(T)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void Acais.API.Data.DataContext::Remove(T)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Acais.API.Data.DataContext::SaveChanges()": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Int32> Acais.API.Data.DataContext::SaveChangesAsync()": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Void Acais.API.Data.DataContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Acais.API.Data.DataContext>)": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Data/Seed.cs": {
+      "Acais.API.Data.Seed": {
+        "System.Void Acais.API.Data.Seed::SeedData(Acais.API.Data.Interfaces.IDataContext)": {
+          "Lines": {
+            "11": 4,
+            "12": 4,
+            "13": 3,
+            "14": 3,
+            "15": 3,
+            "16": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "24": 3,
+            "25": 3,
+            "26": 3,
+            "27": 3,
+            "28": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3,
+            "32": 3,
+            "33": 3,
+            "34": 3,
+            "36": 3,
+            "38": 3,
+            "39": 3,
+            "41": 4,
+            "42": 3,
+            "43": 3,
+            "44": 3,
+            "45": 3,
+            "46": 3,
+            "47": 3,
+            "48": 3,
+            "49": 3,
+            "50": 3,
+            "51": 3,
+            "52": 3,
+            "53": 3,
+            "54": 3,
+            "55": 3,
+            "56": 3,
+            "57": 3,
+            "58": 3,
+            "59": 3,
+            "60": 3,
+            "62": 3,
+            "64": 3,
+            "65": 3,
+            "67": 4,
+            "68": 3,
+            "69": 3,
+            "70": 3,
+            "71": 3,
+            "72": 3,
+            "73": 3,
+            "74": 3,
+            "75": 3,
+            "76": 3,
+            "77": 3,
+            "78": 3,
+            "79": 3,
+            "80": 3,
+            "81": 3,
+            "82": 3,
+            "83": 3,
+            "84": 3,
+            "85": 3,
+            "86": 3,
+            "87": 3,
+            "88": 3,
+            "89": 3,
+            "91": 3,
+            "93": 3,
+            "94": 3,
+            "95": 4
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 17,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 12,
+              "Offset": 17,
+              "EndOffset": 189,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 41,
+              "Offset": 205,
+              "EndOffset": 207,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 41,
+              "Offset": 205,
+              "EndOffset": 331,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 67,
+              "Offset": 349,
+              "EndOffset": 354,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 67,
+              "Offset": 349,
+              "EndOffset": 518,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 4
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Data/Repositories/BaseRepository.cs": {
+      "Acais.API.Data.Repositories.BaseRepository": {
+        "System.Void Acais.API.Data.Repositories.BaseRepository::Add(T)": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1
+          },
+          "Branches": []
+        },
+        "System.Void Acais.API.Data.Repositories.BaseRepository::Delete(T)": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        },
+        "System.Void Acais.API.Data.Repositories.BaseRepository::.ctor(Acais.API.Data.Interfaces.IDataContext)": {
+          "Lines": {
+            "9": 25,
+            "10": 25,
+            "11": 25,
+            "12": 25
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.BaseRepository/<SaveAll>d__4": {
+        "System.Void Acais.API.Data.Repositories.BaseRepository/<SaveAll>d__4::MoveNext()": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Data/Repositories/PedidoPersonalizacaoRepository.cs": {
+      "Acais.API.Data.Repositories.PedidoPersonalizacaoRepository": {
+        "System.Void Acais.API.Data.Repositories.PedidoPersonalizacaoRepository::.ctor(Acais.API.Data.Interfaces.IDataContext)": {
+          "Lines": {
+            "12": 3,
+            "13": 3,
+            "14": 3,
+            "15": 3
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<GetPedidoPersonalizacao>d__2": {
+        "System.Void Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<GetPedidoPersonalizacao>d__2::MoveNext()": {
+          "Lines": {
+            "18": 1,
+            "19": 1,
+            "20": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<RegisterPedidoPersonalizacao>d__3": {
+        "System.Void Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<RegisterPedidoPersonalizacao>d__3::MoveNext()": {
+          "Lines": {
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "27": 2,
+            "28": 2
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 24,
+              "Offset": 79,
+              "EndOffset": 81,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 79,
+              "EndOffset": 149,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 23,
+              "Offset": 14,
+              "EndOffset": 227,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Data/Repositories/PedidoRepository.cs": {
+      "Acais.API.Data.Repositories.PedidoRepository": {
+        "System.Void Acais.API.Data.Repositories.PedidoRepository::.ctor(Acais.API.Data.Interfaces.IDataContext)": {
+          "Lines": {
+            "13": 4,
+            "14": 4,
+            "15": 4,
+            "16": 4
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.PedidoRepository/<GetPedido>d__2": {
+        "System.Void Acais.API.Data.Repositories.PedidoRepository/<GetPedido>d__2::MoveNext()": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.PedidoRepository/<GetPedidos>d__3": {
+        "System.Void Acais.API.Data.Repositories.PedidoRepository/<GetPedidos>d__3::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.PedidoRepository/<RegisterPedido>d__4": {
+        "System.Void Acais.API.Data.Repositories.PedidoRepository/<RegisterPedido>d__4::MoveNext()": {
+          "Lines": {
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "33": 2,
+            "34": 2
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 30,
+              "Offset": 79,
+              "EndOffset": 81,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 79,
+              "EndOffset": 149,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 29,
+              "Offset": 14,
+              "EndOffset": 227,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Acais.API.Data.Repositories.PedidoRepository/<UpdatePedido>d__5": {
+        "System.Void Acais.API.Data.Repositories.PedidoRepository/<UpdatePedido>d__5::MoveNext()": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 14,
+              "EndOffset": 441,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Data/Repositories/PersonalizacaoRepository.cs": {
+      "Acais.API.Data.Repositories.PersonalizacaoRepository": {
+        "System.Void Acais.API.Data.Repositories.PersonalizacaoRepository::.ctor(Acais.API.Data.Interfaces.IDataContext)": {
+          "Lines": {
+            "13": 5,
+            "14": 5,
+            "15": 5,
+            "16": 5
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.PersonalizacaoRepository/<GetPersonalizacoes>d__2": {
+        "System.Void Acais.API.Data.Repositories.PersonalizacaoRepository/<GetPersonalizacoes>d__2::MoveNext()": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.PersonalizacaoRepository/<GetPersonalizacao>d__3": {
+        "System.Void Acais.API.Data.Repositories.PersonalizacaoRepository/<GetPersonalizacao>d__3::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.PersonalizacaoRepository/<GetPersonalizacao>d__4": {
+        "System.Void Acais.API.Data.Repositories.PersonalizacaoRepository/<GetPersonalizacao>d__4::MoveNext()": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "31": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.PersonalizacaoRepository/<PersonalizacaoExists>d__5": {
+        "System.Void Acais.API.Data.Repositories.PersonalizacaoRepository/<PersonalizacaoExists>d__5::MoveNext()": {
+          "Lines": {
+            "34": 2,
+            "35": 2,
+            "36": 1,
+            "38": 1,
+            "39": 2
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 279,
+              "EndOffset": 281,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 279,
+              "EndOffset": 285,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Data/Repositories/SaborRepository.cs": {
+      "Acais.API.Data.Repositories.SaborRepository": {
+        "System.Void Acais.API.Data.Repositories.SaborRepository::.ctor(Acais.API.Data.Interfaces.IDataContext)": {
+          "Lines": {
+            "14": 5,
+            "15": 5,
+            "16": 5,
+            "17": 5
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.SaborRepository/<GetSabores>d__2": {
+        "System.Void Acais.API.Data.Repositories.SaborRepository/<GetSabores>d__2::MoveNext()": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.SaborRepository/<GetSabor>d__3": {
+        "System.Void Acais.API.Data.Repositories.SaborRepository/<GetSabor>d__3::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.SaborRepository/<GetSabor>d__4": {
+        "System.Void Acais.API.Data.Repositories.SaborRepository/<GetSabor>d__4::MoveNext()": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "31": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.SaborRepository/<SaborExists>d__5": {
+        "System.Void Acais.API.Data.Repositories.SaborRepository/<SaborExists>d__5::MoveNext()": {
+          "Lines": {
+            "34": 2,
+            "35": 2,
+            "36": 1,
+            "38": 1,
+            "39": 2
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 279,
+              "EndOffset": 281,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 279,
+              "EndOffset": 285,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Data/Repositories/TamanhoRepository.cs": {
+      "Acais.API.Data.Repositories.TamanhoRepository": {
+        "System.Void Acais.API.Data.Repositories.TamanhoRepository::.ctor(Acais.API.Data.Interfaces.IDataContext)": {
+          "Lines": {
+            "13": 5,
+            "14": 5,
+            "15": 5,
+            "16": 5
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.TamanhoRepository/<GetTamanhos>d__2": {
+        "System.Void Acais.API.Data.Repositories.TamanhoRepository/<GetTamanhos>d__2::MoveNext()": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.TamanhoRepository/<GetTamanho>d__3": {
+        "System.Void Acais.API.Data.Repositories.TamanhoRepository/<GetTamanho>d__3::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.TamanhoRepository/<GetTamanho>d__4": {
+        "System.Void Acais.API.Data.Repositories.TamanhoRepository/<GetTamanho>d__4::MoveNext()": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "31": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.TamanhoRepository/<TamanhoExists>d__5": {
+        "System.Void Acais.API.Data.Repositories.TamanhoRepository/<TamanhoExists>d__5::MoveNext()": {
+          "Lines": {
+            "34": 2,
+            "35": 2,
+            "36": 1,
+            "38": 1,
+            "39": 2
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 279,
+              "EndOffset": 281,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 279,
+              "EndOffset": 285,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Controllers/PedidoPersonalizacoesController.cs": {
+      "Acais.API.Controllers.PedidoPersonalizacoesController": {
+        "System.Void Acais.API.Controllers.PedidoPersonalizacoesController::.ctor(Acais.API.Data.Interfaces.IPedidoPersonalizacaoRepository,Acais.API.Data.Interfaces.IPedidoRepository,Acais.API.Data.Interfaces.IPersonalizacaoRepository,AutoMapper.IMapper)": {
+          "Lines": {
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.PedidoPersonalizacoesController/<CreatePedidoPersonalizado>d__5": {
+        "System.Void Acais.API.Controllers.PedidoPersonalizacoesController/<CreatePedidoPersonalizado>d__5::MoveNext()": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "43": 0,
+            "45": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 203,
+              "EndOffset": 205,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 203,
+              "EndOffset": 227,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 384,
+              "EndOffset": 386,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 384,
+              "EndOffset": 408,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Acais.API.Controllers.PedidoPersonalizacoesController/<DeletePedidoPersonalizacao>d__6": {
+        "System.Void Acais.API.Controllers.PedidoPersonalizacoesController/<DeletePedidoPersonalizacao>d__6::MoveNext()": {
+          "Lines": {
+            "58": 2,
+            "59": 2,
+            "61": 2,
+            "62": 1,
+            "64": 1,
+            "66": 1,
+            "67": 0,
+            "69": 1,
+            "70": 2
+          },
+          "Branches": [
+            {
+              "Line": 58,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 61,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 61,
+              "Offset": 175,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 58,
+              "Offset": 14,
+              "EndOffset": 289,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 341,
+              "EndOffset": 343,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 341,
+              "EndOffset": 357,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Controllers/PedidosController.cs": {
+      "Acais.API.Controllers.PedidosController": {
+        "System.Void Acais.API.Controllers.PedidosController::.ctor(Acais.API.Data.Interfaces.IPedidoRepository,Acais.API.Data.Interfaces.ITamanhoRepository,Acais.API.Data.Interfaces.ISaborRepository,AutoMapper.IMapper)": {
+          "Lines": {
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 9,
+            "25": 9,
+            "26": 9,
+            "27": 9,
+            "28": 9
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.PedidosController/<GetPedidos>d__5": {
+        "System.Void Acais.API.Controllers.PedidosController/<GetPedidos>d__5::MoveNext()": {
+          "Lines": {
+            "32": 2,
+            "33": 2,
+            "35": 2,
+            "37": 2,
+            "38": 2
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.PedidosController/<GetPedido>d__6": {
+        "System.Void Acais.API.Controllers.PedidosController/<GetPedido>d__6::MoveNext()": {
+          "Lines": {
+            "42": 2,
+            "43": 2,
+            "45": 2,
+            "47": 2,
+            "48": 2
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.PedidosController/<CreatePedido>d__7": {
+        "System.Void Acais.API.Controllers.PedidosController/<CreatePedido>d__7::MoveNext()": {
+          "Lines": {
+            "52": 2,
+            "53": 2,
+            "55": 2,
+            "56": 2,
+            "58": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0,
+            "73": 0,
+            "75": 0,
+            "76": 2
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 55,
+              "Offset": 199,
+              "EndOffset": 223,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 385,
+              "EndOffset": 387,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 385,
+              "EndOffset": 409,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Acais.API.Controllers.PedidosController/<DeletePedido>d__8": {
+        "System.Void Acais.API.Controllers.PedidosController/<DeletePedido>d__8::MoveNext()": {
+          "Lines": {
+            "80": 3,
+            "81": 3,
+            "83": 3,
+            "84": 1,
+            "86": 2,
+            "88": 2,
+            "89": 1,
+            "91": 1,
+            "92": 3
+          },
+          "Branches": [
+            {
+              "Line": 80,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 83,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 83,
+              "Offset": 175,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 80,
+              "Offset": 14,
+              "EndOffset": 289,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 341,
+              "EndOffset": 343,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 88,
+              "Offset": 341,
+              "EndOffset": 357,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Controllers/PersonalizacoesController.cs": {
+      "Acais.API.Controllers.PersonalizacoesController": {
+        "System.Void Acais.API.Controllers.PersonalizacoesController::.ctor(Acais.API.Data.Interfaces.IPersonalizacaoRepository,AutoMapper.IMapper)": {
+          "Lines": {
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "21": 10,
+            "22": 10
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.PersonalizacoesController/<GetPersonalizacoes>d__3": {
+        "System.Void Acais.API.Controllers.PersonalizacoesController/<GetPersonalizacoes>d__3::MoveNext()": {
+          "Lines": {
+            "26": 2,
+            "27": 2,
+            "29": 2,
+            "31": 2,
+            "32": 2
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.PersonalizacoesController/<GetPersonalizacao>d__4": {
+        "System.Void Acais.API.Controllers.PersonalizacoesController/<GetPersonalizacao>d__4::MoveNext()": {
+          "Lines": {
+            "36": 2,
+            "37": 2,
+            "39": 2,
+            "41": 2,
+            "42": 2
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.PersonalizacoesController/<AddPersonalizacao>d__5": {
+        "System.Void Acais.API.Controllers.PersonalizacoesController/<AddPersonalizacao>d__5::MoveNext()": {
+          "Lines": {
+            "46": 3,
+            "47": 3,
+            "48": 1,
+            "50": 2,
+            "52": 2,
+            "54": 2,
+            "55": 1,
+            "57": 1,
+            "58": 3
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 47,
+              "Offset": 162,
+              "EndOffset": 164,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 47,
+              "Offset": 162,
+              "EndOffset": 186,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 46,
+              "Offset": 14,
+              "EndOffset": 310,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 362,
+              "EndOffset": 364,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 54,
+              "Offset": 362,
+              "EndOffset": 405,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Acais.API.Controllers.PersonalizacoesController/<DeletePersonalizacao>d__6": {
+        "System.Void Acais.API.Controllers.PersonalizacoesController/<DeletePersonalizacao>d__6::MoveNext()": {
+          "Lines": {
+            "62": 3,
+            "63": 3,
+            "65": 3,
+            "66": 1,
+            "68": 2,
+            "70": 2,
+            "71": 1,
+            "73": 1,
+            "74": 3
+          },
+          "Branches": [
+            {
+              "Line": 62,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 65,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 65,
+              "Offset": 175,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 62,
+              "Offset": 14,
+              "EndOffset": 289,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 341,
+              "EndOffset": 343,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 70,
+              "Offset": 341,
+              "EndOffset": 357,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Controllers/SaboresController.cs": {
+      "Acais.API.Controllers.SaboresController": {
+        "System.Void Acais.API.Controllers.SaboresController::.ctor(Acais.API.Data.Interfaces.ISaborRepository,AutoMapper.IMapper)": {
+          "Lines": {
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "21": 10
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.SaboresController/<GetSabores>d__3": {
+        "System.Void Acais.API.Controllers.SaboresController/<GetSabores>d__3::MoveNext()": {
+          "Lines": {
+            "25": 2,
+            "26": 2,
+            "28": 2,
+            "29": 2
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.SaboresController/<GetSabor>d__4": {
+        "System.Void Acais.API.Controllers.SaboresController/<GetSabor>d__4::MoveNext()": {
+          "Lines": {
+            "33": 2,
+            "34": 2,
+            "36": 2,
+            "37": 2
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.SaboresController/<AddSabor>d__5": {
+        "System.Void Acais.API.Controllers.SaboresController/<AddSabor>d__5::MoveNext()": {
+          "Lines": {
+            "41": 3,
+            "42": 3,
+            "43": 1,
+            "45": 2,
+            "46": 2,
+            "48": 2,
+            "49": 1,
+            "51": 1,
+            "52": 3
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 42,
+              "Offset": 162,
+              "EndOffset": 164,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 162,
+              "EndOffset": 186,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 41,
+              "Offset": 14,
+              "EndOffset": 310,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 362,
+              "EndOffset": 364,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 48,
+              "Offset": 362,
+              "EndOffset": 405,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Acais.API.Controllers.SaboresController/<DeleteSabor>d__6": {
+        "System.Void Acais.API.Controllers.SaboresController/<DeleteSabor>d__6::MoveNext()": {
+          "Lines": {
+            "56": 3,
+            "57": 3,
+            "59": 3,
+            "60": 1,
+            "62": 2,
+            "64": 2,
+            "65": 1,
+            "67": 1,
+            "68": 3
+          },
+          "Branches": [
+            {
+              "Line": 56,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 59,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 59,
+              "Offset": 175,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 56,
+              "Offset": 14,
+              "EndOffset": 289,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 341,
+              "EndOffset": 343,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 64,
+              "Offset": 341,
+              "EndOffset": 357,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Controllers/TamanhosController.cs": {
+      "Acais.API.Controllers.TamanhosController": {
+        "System.Void Acais.API.Controllers.TamanhosController::.ctor(Acais.API.Data.Interfaces.ITamanhoRepository,AutoMapper.IMapper)": {
+          "Lines": {
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "21": 10,
+            "22": 10
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.TamanhosController/<GetTamanhos>d__3": {
+        "System.Void Acais.API.Controllers.TamanhosController/<GetTamanhos>d__3::MoveNext()": {
+          "Lines": {
+            "26": 2,
+            "27": 2,
+            "29": 2,
+            "30": 2
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.TamanhosController/<GetTamanho>d__4": {
+        "System.Void Acais.API.Controllers.TamanhosController/<GetTamanho>d__4::MoveNext()": {
+          "Lines": {
+            "34": 2,
+            "35": 2,
+            "37": 2,
+            "38": 2
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.TamanhosController/<AddTamanho>d__5": {
+        "System.Void Acais.API.Controllers.TamanhosController/<AddTamanho>d__5::MoveNext()": {
+          "Lines": {
+            "42": 3,
+            "43": 3,
+            "44": 1,
+            "46": 2,
+            "48": 2,
+            "50": 2,
+            "51": 1,
+            "53": 1,
+            "54": 3
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 43,
+              "Offset": 162,
+              "EndOffset": 164,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 43,
+              "Offset": 162,
+              "EndOffset": 186,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 42,
+              "Offset": 14,
+              "EndOffset": 310,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 362,
+              "EndOffset": 364,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 50,
+              "Offset": 362,
+              "EndOffset": 405,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Acais.API.Controllers.TamanhosController/<DeleteTamanho>d__6": {
+        "System.Void Acais.API.Controllers.TamanhosController/<DeleteTamanho>d__6::MoveNext()": {
+          "Lines": {
+            "58": 3,
+            "59": 3,
+            "61": 3,
+            "62": 1,
+            "64": 2,
+            "66": 2,
+            "67": 1,
+            "69": 1,
+            "70": 3
+          },
+          "Branches": [
+            {
+              "Line": 58,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 61,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 61,
+              "Offset": 175,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 58,
+              "Offset": 14,
+              "EndOffset": 289,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 341,
+              "EndOffset": 343,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 66,
+              "Offset": 341,
+              "EndOffset": 357,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -32,6 +32,10 @@ namespace Acais.API.UnitTests.Data
             var mockSabores = sabores.AsQueryable().BuildMockDbSet();
             _context.Setup(t => t.Sabores).Returns(mockSabores.Object);
 
+            var personalizacoes = new List<Personalizacao>();
+            var mockPersonalizacoes = personalizacoes.AsQueryable().BuildMockDbSet();
+            _context.Setup(t => t.Personalizacoes).Returns(mockPersonalizacoes.Object);
+
             Seed.SeedData(_context.Object);
 
             _context.Verify(c => c.Tamanhos.AddRange(It.IsAny<List<Tamanho>>()));
@@ -47,6 +51,10 @@ namespace Acais.API.UnitTests.Data
             var sabores = new List<Sabor>();
             var mockSabores = sabores.AsQueryable().BuildMockDbSet();
             _context.Setup(t => t.Sabores).Returns(mockSabores.Object);
+
+            var personalizacoes = new List<Personalizacao>();
+            var mockPersonalizacoes = personalizacoes.AsQueryable().BuildMockDbSet();
+            _context.Setup(t => t.Personalizacoes).Returns(mockPersonalizacoes.Object);
 
             Seed.SeedData(_context.Object);
 
@@ -64,9 +72,13 @@ namespace Acais.API.UnitTests.Data
             var mockSabores = sabores.AsQueryable().BuildMockDbSet();
             _context.Setup(t => t.Sabores).Returns(mockSabores.Object);
 
+            var personalizacoes = new List<Personalizacao>();
+            var mockPersonalizacoes = personalizacoes.AsQueryable().BuildMockDbSet();
+            _context.Setup(t => t.Personalizacoes).Returns(mockPersonalizacoes.Object);
+
             Seed.SeedData(_context.Object);
 
-            _context.Verify(c => c.SaveChanges(), Times.Exactly(2));
+            _context.Verify(c => c.SaveChanges(), Times.Exactly(3));
         }
 
         [Test]
@@ -79,6 +91,10 @@ namespace Acais.API.UnitTests.Data
             var sabores = new List<Sabor> { new Sabor {Id = new Guid() }};
             var mockSabores = sabores.AsQueryable().BuildMockDbSet();
             _context.Setup(t => t.Sabores).Returns(mockSabores.Object);
+
+            var personalizacoes = new List<Personalizacao> { new Personalizacao {Id = new Guid() }};
+            var mockPersonalizacoes = personalizacoes.AsQueryable().BuildMockDbSet();
+            _context.Setup(t => t.Personalizacoes).Returns(mockPersonalizacoes.Object);
 
             Seed.SeedData(_context.Object);
 

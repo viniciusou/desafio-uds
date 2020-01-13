@@ -9,6 +9,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0"/>
     <PackageReference Include="Moq" Version="4.13.1"/>
     <PackageReference Include="MockQueryable.Moq" Version="3.0.0"/>
+    <PackageReference Include="coverlet.msbuild" Version="2.8.0"/>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Acais.API\Acais.API.csproj"/>

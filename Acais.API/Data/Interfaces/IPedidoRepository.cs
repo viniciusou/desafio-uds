@@ -12,5 +12,6 @@ namespace Acais.API.Data.Interfaces
         Task<Pedido> GetPedido(Guid id);
 
         Task<Pedido> RegisterPedido(Pedido pedido);
+        Task<Pedido> UpdatePedido(Guid pedidoId, int tempoPreparo, decimal valor);
     }
 }

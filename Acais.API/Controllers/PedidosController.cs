@@ -53,26 +53,26 @@ namespace Acais.API.Controllers
             var tamanho = await _tamanhoRepository.GetTamanho(pedidoForCreationDto.Tamanho.ToLower());
 
             if (tamanho == null)
-                return BadRequest("Tamanho nao encontrado.");
+                return BadRequest("Tamanho nao encontrado");
 
             var sabor = await _saborRepository.GetSabor(pedidoForCreationDto.Sabor.ToLower());
 
             if (sabor == null)
-                return BadRequest("Sabor nao encontrado.");
+                return BadRequest("Sabor nao encontrado");
 
             var pedidoToCreate = new Pedido
             {
                 Tamanho = tamanho,
                 Sabor = sabor,
-                Tempo = tamanho.TempoPreparo + sabor.TempoPreparo,
-                Valor = tamanho.Valor
+                TempoPreparo = tamanho.TempoPreparo + sabor.TempoPreparo,
+                ValorTotal = tamanho.Valor
             };
 
             var pedido = await _pedidoRepository.RegisterPedido(pedidoToCreate);
 
             var pedidoToReturnDto = _mapper.Map<PedidoToReturnDto>(pedido);
 
-            return CreatedAtRoute("GetPedido", new { id = pedidoToReturnDto.Id }, pedidoToReturnDto);
+            return CreatedAtRoute("GetPedido", new { id = pedido.Id }, pedidoToReturnDto);
         }
 
         [HttpDelete("{id}")]

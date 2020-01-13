@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Acais.API.Models;
 
 namespace Acais.API.Dtos
 {

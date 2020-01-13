@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using Acais.API.Models;
 
 namespace Acais.API.Dtos
 {
@@ -7,7 +9,8 @@ namespace Acais.API.Dtos
         public Guid Id { get; set; }
         public string Tamanho { get; set; }
         public string Sabor { get; set; }
-        public int Tempo { get; set; }
-        public decimal Valor { get; set; }
+        public int TempoPreparo { get; set; }
+        public decimal ValorTotal { get; set; }
+        public string Personalizacao { get; set; }
     }
 }

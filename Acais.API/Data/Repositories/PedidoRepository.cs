@@ -32,5 +32,16 @@ namespace Acais.API.Data.Repositories
 
             return pedido;
         }
+
+        public async Task<Pedido> UpdatePedido(Guid pedidoId, int tempoPreparo, decimal valor)
+        {
+            var pedido = await _context.Pedidos.SingleOrDefaultAsync(p => p.Id == pedidoId);
+            pedido.TempoPreparo += tempoPreparo;
+            pedido.ValorTotal += valor;
+
+            await _context.SaveChangesAsync();
+            
+            return pedido;
+        }
     }
 }

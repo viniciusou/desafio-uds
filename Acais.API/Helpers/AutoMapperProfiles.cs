@@ -20,10 +20,12 @@ namespace Acais.API.Helpers
 
             CreateMap<PedidoPersonalizacaoForCreationDto, PedidoPersonalizacao>();
 
+            CreateMap<PedidoPersonalizacao, PedidoPersonalizacaoToReturnDto>();
+
             CreateMap<Pedido, PedidoToReturnDto>()
                 .ForMember(dest => dest.Tamanho, opt => opt.MapFrom(src => src.Tamanho.Nome))
                 .ForMember(dest => dest.Sabor, opt => opt.MapFrom(src => src.Sabor.Nome))
-                .ForMember(dest => dest.Personalizacao, opt => opt.MapFrom(src => String.Join(',', src.PedidoPersonalizacoes.Select(p => p.Personalizacao.Produto))));
+                .ForMember(dest => dest.Personalizacao, opt => opt.MapFrom(src => src.PedidoPersonalizacoes.Select(p => $"{p.Personalizacao.Produto}: R${p.Personalizacao.Valor.ToString("0.00")}")));
         }
     }
 }

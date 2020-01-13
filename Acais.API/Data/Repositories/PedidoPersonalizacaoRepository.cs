@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Acais.API.Data.Interfaces;
 using Acais.API.Models;
@@ -17,6 +18,11 @@ namespace Acais.API.Data.Repositories
         public async Task<PedidoPersonalizacao> GetPedidoPersonalizacao(Guid id)
         {
             return await _context.PedidoPersonalizacoes.SingleOrDefaultAsync(p => p.Id == id);
+        }
+
+        public async Task<IEnumerable<PedidoPersonalizacao>> GetPedidoPersonalizacoes()
+        {
+            return await _context.PedidoPersonalizacoes.ToListAsync();
         }
 
         public async Task<PedidoPersonalizacao> RegisterPedidoPersonalizacao(PedidoPersonalizacao pedidoPersonalizacao)

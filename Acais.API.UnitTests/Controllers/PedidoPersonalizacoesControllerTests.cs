@@ -26,6 +26,9 @@ namespace Acais.API.UnitTests.Controllers
         private Guid _personalizacaoId;
         private Personalizacao _personalizacao;
 
+        private Guid _pedidoPersonalizacaoId;
+        private PedidoPersonalizacao _pedidoPersonalizacao;
+
         [SetUp]
         public void SetUp()
         {
@@ -50,6 +53,29 @@ namespace Acais.API.UnitTests.Controllers
 
             _personalizacaoRepository.Setup(s => s.GetPersonalizacao(_personalizacaoId)).Returns(Task.FromResult(_personalizacao));
             _personalizacaoRepository.Setup(s => s.GetPersonalizacoes()).Returns(Task.FromResult(personalizacoes.AsEnumerable()));
+
+            _pedidoPersonalizacaoId = new Guid();
+            _pedidoPersonalizacao = new PedidoPersonalizacao { Id = _pedidoPersonalizacaoId };
+            var pedidoPersonalizacoes = new List<PedidoPersonalizacao> { _pedidoPersonalizacao };
+
+            _repository.Setup(s => s.GetPedidoPersonalizacao(_pedidoPersonalizacaoId)).Returns(Task.FromResult(_pedidoPersonalizacao));
+            _repository.Setup(s => s.GetPedidoPersonalizacoes()).Returns(Task.FromResult(pedidoPersonalizacoes.AsEnumerable()));
+        }
+
+        [Test]
+        public async Task GetPedidoPersonalizacoes_AoSerChamado_RetornaOkResponse()
+        {
+            var result = await _controller.GetPedidoPersonalizacoes();
+
+            Assert.That(result, Is.TypeOf<OkObjectResult>());
+        }
+
+        [Test]
+        public async Task GetPedidoPersonalizacao_AoSerChamado_RetornaOkResponse()
+        {
+            var result = await _controller.GetPedidoPersonalizacao(_pedidoPersonalizacaoId);
+
+            Assert.That(result, Is.TypeOf<OkObjectResult>());
         }
 
         [Test]

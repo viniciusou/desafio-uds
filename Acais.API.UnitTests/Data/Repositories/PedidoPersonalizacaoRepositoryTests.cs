@@ -19,6 +19,7 @@ namespace Acais.API.UnitTests.Data.Repositories
         private PedidoPersonalizacaoRepository _pedidoPersonalizacaoRepository;
         private Guid _pedidoPersonalizacaoId;
         private PedidoPersonalizacao _pedidoPersonalizacao;
+        private List<PedidoPersonalizacao> _pedidoPersonalizacoes;
         private PedidoPersonalizacao _newPedidoPersonalizacao;
 
         [SetUp]
@@ -29,19 +30,27 @@ namespace Acais.API.UnitTests.Data.Repositories
 
             _pedidoPersonalizacaoId = new Guid();
             _pedidoPersonalizacao = new PedidoPersonalizacao { Id = _pedidoPersonalizacaoId };
-            var pedidoPersonalizacoes = new List<PedidoPersonalizacao> { _pedidoPersonalizacao };
-            var mockPedidoPersonalizacoes = pedidoPersonalizacoes.AsQueryable().BuildMockDbSet();
+            _pedidoPersonalizacoes = new List<PedidoPersonalizacao> { _pedidoPersonalizacao };
+            var mockPedidoPersonalizacoes = _pedidoPersonalizacoes.AsQueryable().BuildMockDbSet();
             _context.Setup(c => c.PedidoPersonalizacoes).Returns(mockPedidoPersonalizacoes.Object);
 
             _newPedidoPersonalizacao = new PedidoPersonalizacao {Id = new Guid()};
         }
 
         [Test]
-        public async Task GetPedidoPersonalizacao_AoSerChamado_ObtemPedidoDaFonteDados()
+        public async Task GetPedidoPersonalizacao_AoSerChamado_ObtemPedidoPersonalizacaoDaFonteDados()
         {
             var result = await _pedidoPersonalizacaoRepository.GetPedidoPersonalizacao(_pedidoPersonalizacaoId);
 
             Assert.That(result, Is.EqualTo(_pedidoPersonalizacao));
+        }
+
+        [Test]
+        public async Task GetPedidoPersonalizacoes_AoSerChamado_ObtemPedidoPersonalizacoesDaFonteDados()
+        {
+            var result = await _pedidoPersonalizacaoRepository.GetPedidoPersonalizacoes();
+
+            Assert.That(result, Is.EqualTo(_pedidoPersonalizacoes));
         }
 
         [Test]

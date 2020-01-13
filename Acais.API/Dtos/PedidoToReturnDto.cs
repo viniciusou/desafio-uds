@@ -11,6 +11,6 @@ namespace Acais.API.Dtos
         public string Sabor { get; set; }
         public int TempoPreparo { get; set; }
         public decimal ValorTotal { get; set; }
-        public string Personalizacao { get; set; }
+        public ICollection<string> Personalizacao { get; set; }
     }
 }

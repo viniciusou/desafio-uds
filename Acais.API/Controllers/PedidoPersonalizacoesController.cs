@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Acais.API.Data.Interfaces;
 using Acais.API.Dtos;
@@ -27,7 +28,7 @@ namespace Acais.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreatePedidoPersonalizado(PedidoPersonalizacaoForCreationDto pedidoPersonalizacaoForCreationDto)
+        public async Task<IActionResult> CreatePedidoPersonalizacao(PedidoPersonalizacaoForCreationDto pedidoPersonalizacaoForCreationDto)
         {
             var pedido = await _pedidoRepository.GetPedido(pedidoPersonalizacaoForCreationDto.PedidoId);
 
@@ -51,6 +52,26 @@ namespace Acais.API.Controllers
             var pedidoToReturn = _mapper.Map<PedidoToReturnDto>(pedidoAtualizado);
 
             return CreatedAtRoute("GetPedido", new { controller = "Pedidos", id = pedidoToReturn.Id }, pedidoToReturn);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetPedidoPersonalizacoes()
+        {
+            var pedidoPersonalizacoes = await _repository.GetPedidoPersonalizacoes();
+
+            var pedidoPersonalizacoesToReturn = _mapper.Map<List<PedidoPersonalizacaoToReturnDto>>(pedidoPersonalizacoes);
+
+            return Ok(pedidoPersonalizacoesToReturn);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetPedidoPersonalizacao(Guid id)
+        {
+            var pedidoPersonalizacao = await _repository.GetPedidoPersonalizacao(id);
+
+            var pedidoPersonalizacaoToReturn = _mapper.Map<PedidoPersonalizacaoToReturnDto>(pedidoPersonalizacao);
+
+            return Ok(pedidoPersonalizacaoToReturn);
         }
 
         [HttpDelete("{id}")]

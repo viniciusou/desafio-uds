@@ -1,12 +1,11 @@
 using System;
 
-namespace Acais.API.Models
+namespace Acais.API.Dtos
 {
-    public class PedidoPersonalizacao
+    public class PedidoPersonalizacaoToReturnDto
     {
         public Guid Id { get; set; }
         public Guid PedidoId { get; set; }
         public Guid PersonalizacaoId { get; set; }
-        public virtual Personalizacao Personalizacao { get; set; }
     }
 }

@@ -271,7 +271,7 @@
       "Acais.API.Models.Pedido": {
         "System.Guid Acais.API.Models.Pedido::get_Id()": {
           "Lines": {
-            "9": 30
+            "9": 32
           },
           "Branches": []
         },
@@ -323,7 +323,7 @@
       "Acais.API.Models.PedidoPersonalizacao": {
         "System.Guid Acais.API.Models.PedidoPersonalizacao::get_Id()": {
           "Lines": {
-            "7": 7
+            "7": 13
           },
           "Branches": []
         },
@@ -341,7 +341,7 @@
         },
         "Acais.API.Models.Personalizacao Acais.API.Models.PedidoPersonalizacao::get_Personalizacao()": {
           "Lines": {
-            "12": 0
+            "10": 0
           },
           "Branches": []
         }
@@ -351,13 +351,13 @@
       "Acais.API.Models.Personalizacao": {
         "System.Guid Acais.API.Models.Personalizacao::get_Id()": {
           "Lines": {
-            "10": 24
+            "10": 26
           },
           "Branches": []
         },
         "System.String Acais.API.Models.Personalizacao::get_Produto()": {
           "Lines": {
-            "12": 44
+            "12": 46
           },
           "Branches": []
         },
@@ -1424,56 +1424,57 @@
             "19": 0,
             "21": 0,
             "23": 0,
-            "24": 0,
             "25": 0,
             "26": 0,
-            "27": 0
+            "27": 0,
+            "28": 0,
+            "29": 0
           },
           "Branches": [
             {
-              "Line": 23,
-              "Offset": 112,
-              "EndOffset": 114,
+              "Line": 25,
+              "Offset": 119,
+              "EndOffset": 121,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 0
             },
             {
-              "Line": 23,
-              "Offset": 112,
-              "EndOffset": 137,
+              "Line": 25,
+              "Offset": 119,
+              "EndOffset": 144,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 0
             },
             {
-              "Line": 23,
-              "Offset": 205,
-              "EndOffset": 207,
+              "Line": 25,
+              "Offset": 212,
+              "EndOffset": 214,
               "Path": 0,
               "Ordinal": 2,
               "Hits": 0
             },
             {
-              "Line": 23,
-              "Offset": 205,
-              "EndOffset": 230,
+              "Line": 25,
+              "Offset": 212,
+              "EndOffset": 237,
               "Path": 1,
               "Ordinal": 3,
               "Hits": 0
             },
             {
-              "Line": 23,
-              "Offset": 298,
-              "EndOffset": 300,
+              "Line": 25,
+              "Offset": 305,
+              "EndOffset": 307,
               "Path": 0,
               "Ordinal": 4,
               "Hits": 0
             },
             {
-              "Line": 23,
-              "Offset": 298,
-              "EndOffset": 323,
+              "Line": 25,
+              "Offset": 305,
+              "EndOffset": 330,
               "Path": 1,
               "Ordinal": 5,
               "Hits": 0
@@ -1528,6 +1529,28 @@
         }
       }
     },
+    "/home/viniciusou/Desafios/desafio-uds/Acais.API/Dtos/PedidoPersonalizacaoToReturnDto.cs": {
+      "Acais.API.Dtos.PedidoPersonalizacaoToReturnDto": {
+        "System.Guid Acais.API.Dtos.PedidoPersonalizacaoToReturnDto::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Acais.API.Dtos.PedidoPersonalizacaoToReturnDto::get_PedidoId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Acais.API.Dtos.PedidoPersonalizacaoToReturnDto::get_PersonalizacaoId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
     "/home/viniciusou/Desafios/desafio-uds/Acais.API/Dtos/PedidoToReturnDto.cs": {
       "Acais.API.Dtos.PedidoToReturnDto": {
         "System.Guid Acais.API.Dtos.PedidoToReturnDto::get_Id()": {
@@ -1560,7 +1583,7 @@
           },
           "Branches": []
         },
-        "System.String Acais.API.Dtos.PedidoToReturnDto::get_Personalizacao()": {
+        "System.Collections.Generic.ICollection`1<System.String> Acais.API.Dtos.PedidoToReturnDto::get_Personalizacao()": {
           "Lines": {
             "14": 0
           },
@@ -1883,10 +1906,10 @@
         },
         "System.Void Acais.API.Data.Repositories.BaseRepository::.ctor(Acais.API.Data.Interfaces.IDataContext)": {
           "Lines": {
-            "9": 25,
-            "10": 25,
-            "11": 25,
-            "12": 25
+            "9": 26,
+            "10": 26,
+            "11": 26,
+            "12": 26
           },
           "Branches": []
         }
@@ -1906,10 +1929,10 @@
       "Acais.API.Data.Repositories.PedidoPersonalizacaoRepository": {
         "System.Void Acais.API.Data.Repositories.PedidoPersonalizacaoRepository::.ctor(Acais.API.Data.Interfaces.IDataContext)": {
           "Lines": {
-            "12": 3,
-            "13": 3,
-            "14": 3,
-            "15": 3
+            "13": 4,
+            "14": 4,
+            "15": 4,
+            "16": 4
           },
           "Branches": []
         }
@@ -1917,25 +1940,35 @@
       "Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<GetPedidoPersonalizacao>d__2": {
         "System.Void Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<GetPedidoPersonalizacao>d__2::MoveNext()": {
           "Lines": {
-            "18": 1,
             "19": 1,
-            "20": 1
+            "20": 1,
+            "21": 1
           },
           "Branches": []
         }
       },
-      "Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<RegisterPedidoPersonalizacao>d__3": {
-        "System.Void Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<RegisterPedidoPersonalizacao>d__3::MoveNext()": {
+      "Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<GetPedidoPersonalizacoes>d__3": {
+        "System.Void Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<GetPedidoPersonalizacoes>d__3::MoveNext()": {
           "Lines": {
-            "23": 2,
-            "24": 2,
-            "25": 2,
-            "27": 2,
-            "28": 2
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<RegisterPedidoPersonalizacao>d__4": {
+        "System.Void Acais.API.Data.Repositories.PedidoPersonalizacaoRepository/<RegisterPedidoPersonalizacao>d__4::MoveNext()": {
+          "Lines": {
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "33": 2,
+            "34": 2
           },
           "Branches": [
             {
-              "Line": 23,
+              "Line": 29,
               "Offset": 14,
               "EndOffset": 25,
               "Path": 0,
@@ -1943,7 +1976,7 @@
               "Hits": 2
             },
             {
-              "Line": 24,
+              "Line": 30,
               "Offset": 79,
               "EndOffset": 81,
               "Path": 0,
@@ -1951,7 +1984,7 @@
               "Hits": 0
             },
             {
-              "Line": 24,
+              "Line": 30,
               "Offset": 79,
               "EndOffset": 149,
               "Path": 1,
@@ -1959,7 +1992,7 @@
               "Hits": 2
             },
             {
-              "Line": 23,
+              "Line": 29,
               "Offset": 14,
               "EndOffset": 227,
               "Path": 1,
@@ -2299,39 +2332,39 @@
       "Acais.API.Controllers.PedidoPersonalizacoesController": {
         "System.Void Acais.API.Controllers.PedidoPersonalizacoesController::.ctor(Acais.API.Data.Interfaces.IPedidoPersonalizacaoRepository,Acais.API.Data.Interfaces.IPedidoRepository,Acais.API.Data.Interfaces.IPersonalizacaoRepository,AutoMapper.IMapper)": {
           "Lines": {
-            "20": 2,
-            "21": 2,
-            "22": 2,
-            "23": 2,
-            "24": 2,
-            "25": 2,
-            "26": 2,
-            "27": 2
+            "21": 4,
+            "22": 4,
+            "23": 4,
+            "24": 4,
+            "25": 4,
+            "26": 4,
+            "27": 4,
+            "28": 4
           },
           "Branches": []
         }
       },
-      "Acais.API.Controllers.PedidoPersonalizacoesController/<CreatePedidoPersonalizado>d__5": {
-        "System.Void Acais.API.Controllers.PedidoPersonalizacoesController/<CreatePedidoPersonalizado>d__5::MoveNext()": {
+      "Acais.API.Controllers.PedidoPersonalizacoesController/<CreatePedidoPersonalizacao>d__5": {
+        "System.Void Acais.API.Controllers.PedidoPersonalizacoesController/<CreatePedidoPersonalizacao>d__5::MoveNext()": {
           "Lines": {
-            "31": 0,
             "32": 0,
-            "34": 0,
+            "33": 0,
             "35": 0,
-            "37": 0,
-            "39": 0,
+            "36": 0,
+            "38": 0,
             "40": 0,
-            "43": 0,
-            "45": 0,
-            "48": 0,
+            "41": 0,
+            "44": 0,
+            "46": 0,
             "49": 0,
-            "51": 0,
-            "53": 0,
-            "54": 0
+            "50": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0
           },
           "Branches": [
             {
-              "Line": 34,
+              "Line": 35,
               "Offset": 203,
               "EndOffset": 205,
               "Path": 0,
@@ -2339,7 +2372,7 @@
               "Hits": 0
             },
             {
-              "Line": 34,
+              "Line": 35,
               "Offset": 203,
               "EndOffset": 227,
               "Path": 1,
@@ -2347,7 +2380,7 @@
               "Hits": 0
             },
             {
-              "Line": 39,
+              "Line": 40,
               "Offset": 384,
               "EndOffset": 386,
               "Path": 0,
@@ -2355,7 +2388,7 @@
               "Hits": 0
             },
             {
-              "Line": 39,
+              "Line": 40,
               "Offset": 384,
               "EndOffset": 408,
               "Path": 1,
@@ -2365,22 +2398,46 @@
           ]
         }
       },
-      "Acais.API.Controllers.PedidoPersonalizacoesController/<DeletePedidoPersonalizacao>d__6": {
-        "System.Void Acais.API.Controllers.PedidoPersonalizacoesController/<DeletePedidoPersonalizacao>d__6::MoveNext()": {
+      "Acais.API.Controllers.PedidoPersonalizacoesController/<GetPedidoPersonalizacoes>d__6": {
+        "System.Void Acais.API.Controllers.PedidoPersonalizacoesController/<GetPedidoPersonalizacoes>d__6::MoveNext()": {
           "Lines": {
-            "58": 2,
-            "59": 2,
-            "61": 2,
+            "59": 1,
+            "60": 1,
             "62": 1,
             "64": 1,
-            "66": 1,
-            "67": 0,
+            "65": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.PedidoPersonalizacoesController/<GetPedidoPersonalizacao>d__7": {
+        "System.Void Acais.API.Controllers.PedidoPersonalizacoesController/<GetPedidoPersonalizacao>d__7::MoveNext()": {
+          "Lines": {
             "69": 1,
-            "70": 2
+            "70": 1,
+            "72": 1,
+            "74": 1,
+            "75": 1
+          },
+          "Branches": []
+        }
+      },
+      "Acais.API.Controllers.PedidoPersonalizacoesController/<DeletePedidoPersonalizacao>d__8": {
+        "System.Void Acais.API.Controllers.PedidoPersonalizacoesController/<DeletePedidoPersonalizacao>d__8::MoveNext()": {
+          "Lines": {
+            "79": 2,
+            "80": 2,
+            "82": 2,
+            "83": 1,
+            "85": 1,
+            "87": 1,
+            "88": 0,
+            "90": 1,
+            "91": 2
           },
           "Branches": [
             {
-              "Line": 58,
+              "Line": 79,
               "Offset": 14,
               "EndOffset": 25,
               "Path": 0,
@@ -2388,7 +2445,7 @@
               "Hits": 2
             },
             {
-              "Line": 61,
+              "Line": 82,
               "Offset": 175,
               "EndOffset": 177,
               "Path": 0,
@@ -2396,7 +2453,7 @@
               "Hits": 1
             },
             {
-              "Line": 61,
+              "Line": 82,
               "Offset": 175,
               "EndOffset": 194,
               "Path": 1,
@@ -2404,7 +2461,7 @@
               "Hits": 1
             },
             {
-              "Line": 58,
+              "Line": 79,
               "Offset": 14,
               "EndOffset": 289,
               "Path": 1,
@@ -2412,7 +2469,7 @@
               "Hits": 0
             },
             {
-              "Line": 66,
+              "Line": 87,
               "Offset": 341,
               "EndOffset": 343,
               "Path": 0,
@@ -2420,7 +2477,7 @@
               "Hits": 0
             },
             {
-              "Line": 66,
+              "Line": 87,
               "Offset": 341,
               "EndOffset": 357,
               "Path": 1,

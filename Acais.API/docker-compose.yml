@@ -2,7 +2,8 @@ version: '3'
 
 services:
     api:
-      restart: on-failure
+      environment:
+        DefaultConnection: "Data Source=acais.db"
       build: .
       ports:
         - "8080:80"

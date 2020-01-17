@@ -26,7 +26,7 @@ No terminal acesse o diretório `Acais.API.UnitTests`. Execute o comando `dotnet
 ## Desenvolvido com
 
 * [.NET Core](https://dotnet.microsoft.com/) - Framework utilizado para desenvolver a API
-* [SQLite](https://www.sqlite.org/) - Banco de dados utilizado para fins de prototipação 
+* [SQL Server](https://www.microsoft.com/sql-server) - Banco de dados utilizado
 * [NUnit](https://nunit.org/) - Framework de testes unitários utilizado
 * [Moq](https://github.com/Moq/moq4/) - Framework de mocking utilizado
 * [Docker](https://www.docker.com/) - Ferramenta utilizada para facilitar o deploy da aplicação

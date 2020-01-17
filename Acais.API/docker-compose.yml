@@ -1,10 +1,31 @@
-version: '3'
-
-services:
-    api:
-      environment:
-        DefaultConnection: "Data Source=acais.db"
-      build: .
-      ports:
-        - "8080:80"
+version: "3"
     
+services:
+  testsql:
+    image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+    container_name: testsql
+    networks:
+      - acaisnet
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: Passw0rd2020_
+      MSSQL_PID: Express
+
+  api:
+    build: .
+    networks:
+      - acaisnet
+    ports:
+      - "8080:80"
+    depends_on:
+      - testsql
+    environment:
+      HOST: testsql
+        
+networks:
+  acaisnet:
+
+
+

@@ -23,17 +23,17 @@ namespace Acais.API
         }
 
         public IConfiguration Configuration { get; }
+        
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var connection = Configuration.GetConnectionString("DefaultConnection") ?? Configuration["DefaultConnection"];
-
-            services.AddDbContext<DataContext>(x =>
-            {
+            var host = Configuration["HOST"] ?? "localhost";
+        
+            services.AddDbContext<DataContext>(x => {
                 x.UseLazyLoadingProxies();
-                x.UseSqlite(connection);
+                x.UseSqlServer($"Server={host},1433;Initial Catalog=Acais; User ID=SA; Password=Passw0rd2020_; Connect Timeout=60");
             });
+
             services.AddControllers().AddNewtonsoftJson(opt => {
                 opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
             });
